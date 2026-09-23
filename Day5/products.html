@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aliceblue;
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            align-items: center;
+
+            flex-wrap: wrap;
+        }
+
+        .product{
+            border: 1px solid black;
+            border-radius: 12px;
+            width: 250px;
+
+            margin-bottom: 15px;
+
+            padding: 12px;
+            text-align: center;
+
+        box-shadow: 4px  4px  8px  black;
+        }
+
+
+        .product:hover{
+            background-color:red;
+            transition: 1s;
+            transform: scale(1.03);
+            color: white;
+
+        }
+
+        .product img{
+
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+
+        }
+
+        .product button{
+            background-color: orange;
+            border: none;
+            border-radius: 12px;
+            width: 90%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/12920900/pexels-photo-12920900.jpeg" alt="" height="150px" width="150px">
+        <h2>Headphone</h2>
+        <p>Rs 3000</p>
+        <button>Buy Now</button>
+    </div>
+
+
+       <div class="product">
+        <img src="https://images.pexels.com/photos/10060931/pexels-photo-10060931.jpeg" alt="" height="150px" width="150px">
+        <h2>Pistachio</h2>
+        <p>Rs 1000/Kg</p>
+        <button>Buy Now</button>
+    </div>
+
+       <div class="product">
+        <img src="https://images.pexels.com/photos/5793947/pexels-photo-5793947.jpeg" alt="" height="150px" width="150px">
+        <h2>Laptop</h2>
+        <p>Rs 52000</p>
+        <button>Buy Now</button>
+    </div>
+
+
+
+       <div class="product">
+        <img src="https://images.pexels.com/photos/7870815/pexels-photo-7870815.jpeg" alt="" height="150px" width="150px">
+        <h2>Gameing Controller</h2>
+        <p>Rs 5000</p>
+        <button>Buy Now</button>
+    </div>
+</body>
+</html>
